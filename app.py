@@ -9,7 +9,7 @@ st.set_page_config(page_title="Visualization App", layout="wide")
 st.title("📊 Data Visualization App")
 
 # File upload
-uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
+uploaded_file = breast cancer.csv
 
 if uploaded_file is not None:
     df = pd.read_csv(uploaded_file)
